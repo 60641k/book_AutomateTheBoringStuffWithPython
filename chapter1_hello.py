@@ -1,5 +1,5 @@
 # This program says hello and asks for my name.
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 print('Hello World!')
 print('What is your name?')
