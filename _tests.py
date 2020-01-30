@@ -1,5 +1,11 @@
-#!/usr/bin/python3
-
 import random
-for i in range(5):
-	print(random.randint(1, 33))
+
+tmpstr = ''
+for i in range(100):
+	if random.randint(0,1) == 0:
+		tmpstr += 'T'
+	else:
+		tmpstr += 'H'
+print(tmpstr)
+print('Tx6: ', tmpstr.count('TTTTTT'))
+print('Hx6: ', tmpstr.count('HHHHHH'))
